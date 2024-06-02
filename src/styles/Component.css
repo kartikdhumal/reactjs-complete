@@ -1,0 +1,84 @@
+.component-container {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.component-container h1 {
+  color: #ffcc00;
+}
+
+.component-container h2,
+.component-container h3 {
+  color: #ffcc00;
+}
+
+.component-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f5f5f5;
+}
+
+.component-container ul,
+.component-container ol {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.component-container li {
+  margin-bottom: 10px;
+}
+
+.component-container pre {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  color: #d4d4d4;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+}
+
+.component-container pre::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #f698ff, #00d8ff);
+}
+
+.component-container code {
+  color: #d4d4d4;
+}
+
+.component-container .keyword {
+  color: #569cd6;
+}
+
+.component-container .string {
+  color: #ce9178;
+}
+
+.component-container .comment {
+  color: #6a9955;
+}
+
+.component-container .function {
+  color: #dcdcaa;
+}
+
+.component-container .variable {
+  color: #9cdcfe;
+}
+
+iframe {
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}

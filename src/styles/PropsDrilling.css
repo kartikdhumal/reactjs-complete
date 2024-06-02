@@ -1,0 +1,31 @@
+.props-drilling-container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .props-drilling-container h1 {
+    color: #ffcc00;
+  }
+  
+  .props-drilling-container h2, .props-drilling-container h3 {
+    color: #ffcc00;
+  }
+  
+  .props-drilling-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f5f5f5;
+  }
+  
+  .props-drilling-container pre {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #ffcc00;
+  }
+  

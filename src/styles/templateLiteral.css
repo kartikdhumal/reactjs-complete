@@ -1,0 +1,47 @@
+.template-literal-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #004c93, #0081c8);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .template-literal-container h1, 
+  .template-literal-container h2 {
+    color: #ffcc00;
+  }
+  
+  .template-literal-container code{
+    background-color: #333 !important;
+  }
+
+
+  .template-literal-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .code-example {
+    background-color: #2E2E2E !important;
+  padding: 2px 4px !important;
+  border-radius: 4px !important;
+  color: #00BFFF !important;
+  font-size: 20px !important;
+  }
+  
+  .code-example::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .code-example::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 4px;
+  }
+  
+  .code-example::-webkit-scrollbar-track {
+    background-color: #1e1e1e;
+  }
+  

@@ -1,0 +1,47 @@
+.context-api-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .context-api-info {
+    background-color: #012169;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  .context-api-info h2 {
+    color: #ffa500;
+  }
+  
+  .context-api-info p {
+    margin-bottom: 20px;
+  }
+  
+  .code-example {
+    background-color: #32383e;
+    color: #abb2bf;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .code-example::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .code-example::-webkit-scrollbar-thumb {
+    background-color: #4b5361;
+    border-radius: 4px;
+  }
+  
+  .code-example::-webkit-scrollbar-track {
+    background-color: #32383e;
+  }
+  

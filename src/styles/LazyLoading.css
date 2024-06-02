@@ -1,0 +1,41 @@
+.lazy-loading-container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color:#A1EC88;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lazy-loading-container h1 {
+    color: #333 !important;
+  }
+  
+  .lazy-loading-container h2, .lazy-loading-container h3 {
+    color: #444;
+  }
+  
+  .lazy-loading-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .lazy-loading-container ul, .lazy-loading-container ol {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  .lazy-loading-container li {
+    margin-bottom: 10px;
+  }
+  
+  .lazy-loading-container pre {
+    background-color: #2E2E2E !important;
+  padding: 2px 4px !important;
+  border-radius: 4px !important;
+  color: #00BFFF !important;
+  font-size: 20px !important;
+  }
+  

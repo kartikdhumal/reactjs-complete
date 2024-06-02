@@ -1,0 +1,83 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #001d33;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-container {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  width: auto;
+  animation: fadeIn 1s ease-in-out;
+  color: #ffffff;
+  background-color:#FFCD00; /* Gradient colors of Australia 2015 World Cup jersey */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ .navbar-title {
+  text-align: center;
+  color:#001d33 !important;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.navbar-section {
+  margin-top: 2rem;
+}
+
+.navbar-section h2 {
+  color:#001d33;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0.75rem 0;
+  background-color:#004C93;
+}
+
+.navbar-links a {
+  color: #FF9933 !important;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-links a:hover {
+  transform: translateX(5px);
+}
+
+.navbar-links a::after {
+  content: ' →';
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-links a:hover::after {
+  opacity: 1;
+  transform: translateX(5px);
+}
