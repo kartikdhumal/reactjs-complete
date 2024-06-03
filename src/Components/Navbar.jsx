@@ -20,6 +20,7 @@ function Navbar() {
                     <li className="navbar-item"><Link to="/redux" className="navbar-link">React Redux</Link></li>
                     <li className="navbar-item"><Link to="/templateliteral" className="navbar-link">Template Literal</Link></li>
                     <li className="navbar-item"><Link to="/testing" className="navbar-link">Testing</Link></li>
+                    <li className="navbar-item"><Link to="/qna" className="navbar-link">QNA</Link></li>
                 </ul>
             </div>
         </div>

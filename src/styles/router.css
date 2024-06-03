@@ -1,32 +1,38 @@
 .router-container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 20px;
+  background-color:#001d33 !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
 .router-title {
-  font-size: 28px;
-  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: bold;
   text-align: center;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .router-section {
-  margin-bottom: 40px;
-  background-color: #ffffff;
+  margin-bottom: 30px;
   padding: 20px;
-  border-radius: 8px;
+  background-color:azure;
+  border-radius: 5px; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .router-subtitle {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #2980b9;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #007bff !important;
 }
 
 .router-description {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   color: #555;
 }
@@ -41,10 +47,10 @@
 }
 
 .router-container pre {
-  background-color: #f4f4f4;
+  background-color: #f0f0f0;
   padding: 10px;
   border-radius: 4px;
-  color: #222;
+  color: #333;
   font-size: 14px;
   overflow-x: auto;
 }

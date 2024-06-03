@@ -1,84 +1,134 @@
-.component-container {
-  font-family: Arial, sans-serif;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
+.com-container {
   max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.1);
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #001d33 !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
 }
 
-.component-container h1 {
-  color: #ffcc00;
+.com-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
 }
 
-.component-container h2,
-.component-container h3 {
-  color: #ffcc00;
+.com-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+  background-color: #001d33;
 }
 
-.component-container p {
+.com-text {
   font-size: 16px;
-  line-height: 1.5;
-  color: #f5f5f5;
+  color: #ffffff;
+  line-height: 1.6;
 }
 
-.component-container ul,
-.component-container ol {
-  margin: 20px 0;
+.com-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.com-list-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  font-size:18px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.com-strong {
+  font-weight: bold;
+  color: gold !important;
+  line-height: 2rem;
+  text-align: center !important;
+  font-size: 20px;
+}
+
+.com-code {
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 4px;
+  color: #dcdcdc;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  box-shadow: inset 0 0 10px #000000;
+  border-left: 4px solid #007acc;
+}
+
+.com-code::before {
+  content: 'Code:';
+  display: block;
+  font-size: 0.8rem;
+  color: #569cd6;
+  margin-bottom: 5px;
+}
+
+.com-iframe {
+  margin-top: 20px;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #1C1C1C;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.faq-question {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00BFFF;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.faq-answer {
+  font-size: 18px;
+  color: #DCDCDC;
+  line-height: 1.6;
+}
+
+.faq-answer ul {
+  list-style-type: disc;
   padding-left: 20px;
 }
 
-.component-container li {
-  margin-bottom: 10px;
+.faq-answer code {
+  background-color: #2E2E2E;
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: #00BFFF;
 }
 
-.component-container pre {
-  background-color: #1e1e1e;
-  padding: 15px;
-  border-radius: 5px;
-  overflow-x: auto;
-  color: #d4d4d4;
-  font-family: 'Courier New', Courier, monospace;
-  position: relative;
-}
+@media screen and (max-width: 450px) {
+  .com-container {
+    padding: 10px;
+    width:36%;
+  }
 
-.component-container pre::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, #f698ff, #00d8ff);
-}
+  .com-title {
+    font-size: 1.5rem;
+  }
 
-.component-container code {
-  color: #d4d4d4;
-}
+  .com-subtitle {
+    font-size: 1.2rem;
+  }
 
-.component-container .keyword {
-  color: #569cd6;
-}
+  .com-text {
+    font-size: 0.9rem;
+  }
 
-.component-container .string {
-  color: #ce9178;
-}
-
-.component-container .comment {
-  color: #6a9955;
-}
-
-.component-container .function {
-  color: #dcdcaa;
-}
-
-.component-container .variable {
-  color: #9cdcfe;
-}
-
-iframe {
-  border: none;
-  border-radius: 8px;
-  margin-top: 20px;
+  .com-list-item {
+    margin-bottom: 10px;
+  }
 }

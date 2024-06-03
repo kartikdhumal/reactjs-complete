@@ -15,6 +15,7 @@ import ReactRedux from './Components/ReactRedux';
 import ContextAPI from './Components/ContextAPI';
 import TemplateLiteral from './Components/TemplateLiteral';
 import Testing from './Components/Testing';
+import QNA from './Components/QNA';
 
 const LazyLoading = lazy(() => import('./Components/LazyLoading'));
 
@@ -45,16 +46,19 @@ export const myRouter = createBrowserRouter([{
 }, {
   path: '/context',
   element: <ContextAPI />
-},{
+}, {
   path: '/templateliteral',
   element: <TemplateLiteral />
 }, {
   path: 'redux',
   element: <ReactRedux />
 }, {
-  path:'testing',
-  element:<Testing/>
-} ,{
+  path: 'testing',
+  element: <Testing />
+}, {
+  path: '/qna',
+  element: <QNA />
+}, {
   path: "/lazyloading",
   element:
     <Suspense fallback={<h1> Loading... </h1>}>

@@ -3,7 +3,7 @@
     margin: 20px auto;
     max-width: 800px;
     padding: 20px;
-    background-color:#A1EC88;
+    background-color:azure;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -13,7 +13,7 @@
   }
   
   .lazy-loading-container h2, .lazy-loading-container h3 {
-    color: #444;
+    color: #007bff !important;
   }
   
   .lazy-loading-container p {

@@ -1,12 +1,11 @@
 .container {
-  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
   padding: 20px;
-  max-width: 800px !important;
-  margin: 40px auto;
-  background: linear-gradient(to bottom, #0033cc, #0080ff);
-  color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color:#001d33 !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
 }
 
 h1,
